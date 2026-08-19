@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python Environments & Cache
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# DubFlow Workspace outputs (keep directory structure)
+backend/workspace/*
+!backend/workspace/.gitkeep
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
